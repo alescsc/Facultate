@@ -1,0 +1,21 @@
+do modelsim_run.txt
+# test.v test_tb.v
+# test_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:21:47 on Apr 14,2025
+# vlog -reportprogress 300 test.v test_tb.v 
+# -- Compiling module test
+# -- Compiling module test_tb
+# 
+# Top level modules:
+# 	test_tb
+# End time: 11:21:47 on Apr 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" test_tb 
+# Start time: 11:21:47 on Apr 14,2025
+# Loading work.test_tb
+# Loading work.test
+add wave sim:/test_tb/*
+run 100
+# End time: 11:24:27 on Apr 14,2025, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 0

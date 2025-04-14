@@ -1,10 +1,13 @@
-module test_tb(ouput reg A, output reg B, output reg C, output reg D, output f)
+module test_tb;
+  reg A, B, C, D;
+  wire f;
 
-UUT test(A(.A), B(.B), C(.C), D(.D));
+  test UUT(.A(A), .B(B), .C(C), .D(D), .f(f));
 
-A = 0; B = 0; C = 0; D = 0; #10
-A = 0; B = 0; C = 0; D = 1; #10
-A = 0; B = 0; C = 1; D = 0; #10
-A = 0; B = 0; C = 1; D = 1; 
-
+  initial begin
+    A = 0; B = 0; C = 0; D = 0; #10;
+    A = 0; B = 0; C = 0; D = 1; #10;
+    A = 0; B = 0; C = 1; D = 0; #10;
+    A = 0; B = 0; C = 1; D = 1; #10;
+  end
 endmodule
