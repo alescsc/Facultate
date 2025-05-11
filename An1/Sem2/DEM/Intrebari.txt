@@ -1,0 +1,7 @@
+-masuratori (unitati de masura, sistem international, unitati de masura de baza, doua exemple de unitati de masura derivate)
+-Dati exemple de 3 situatii in care se folosesc doua unitati de masura ale sistemului de masura.
+-conversie
+-Diferenta dintre PCBA si PCB
+-Numiti 3 elemente din continutul pachetului de informatie despre un PCB
+-Elementele sistemului de masurare
+-rate, resolution, range or span - pe multimetru - ce sunt
