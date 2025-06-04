@@ -36,6 +36,7 @@ always @(state_reg, coffee, credit05, credit10)
 		state_next = state_reg;
 		exprr_next = 0;
 		expr_l_next = 0;
+		cap_next = 0;
 		case(state_reg)
 			`INIT:begin
 				state_next = `INIT;
