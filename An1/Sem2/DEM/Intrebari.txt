@@ -1,3 +1,5 @@
+Dictate in clasa:
+
 -masuratori (unitati de masura, sistem international, unitati de masura de baza, doua exemple de unitati de masura derivate)
 -Dati exemple de 3 situatii in care se folosesc doua unitati de masura ale sistemului de masura.
 -conversie
@@ -5,3 +7,25 @@
 -Numiti 3 elemente din continutul pachetului de informatie despre un PCB
 -Elementele sistemului de masurare
 -rate, resolution, range or span - pe multimetru - ce sunt
+
+
+
+
+Trimise pe email:
+
+Lista intrebari P1 DEM. Nu maimult de 2 paragrafe la fiecare, in Ro sau Eng, dupa cum vreti voi.
+    1. The International System of Units – description, measurement units, derived units.
+    2. Description of 3 measurement units from the Imperial System of Measurement and 3 measurement units from the International System of Units. Description and fields of usage.
+    3. Define the Measurand.
+    4. Absolute and relative errors. Definition and usage.
+    5. Measurement Uncertainty.
+    6. Systematic errors Vs. Random errors.
+    7. Accuracy Vs. Precision.
+    8. What is the PCB (Printed Circuit Board) or Bare Board? What is the PCBA (Printed Circuit Board Assembly)?
+    9. What is the CAD data package? Definition, usage and 3-4 components.
+    10. Elements of the measurement system. Brief description & schematic diagram.
+    11. Sensor vs Transducer.
+    12. Important electrical measuring instruments – describe 3 instruments of your choice.
+    13. Rate- Resolution- Range or Span.
+    14. Measurement methods – describe 3 methods of your choice.
+    15. Measurement instruments characteristics – describe 3 static characteristics of your choice.
