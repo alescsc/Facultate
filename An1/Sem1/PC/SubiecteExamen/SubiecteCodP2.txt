@@ -1,0 +1,22 @@
+1. ți-se dă un fisier dictionar de forma "cuvând_engleză=cuvant_română" si trebuie memorate cuvintele si traduceriile lor folosind stricul necesar de memorie si dupa se dau de la tastatura cuvinte in ebgleza si dupa fiecare cuvant trebuue sa apara traducerea in romana sau "negăsit" daca cuvantul nu se afla in fișier
+
+2. se citeste de la tastatura un numar pe 32 de biti unsigned  si dupa un indice intre [1 si 24] daca bitul din dreapta si cel din stanga al bitului de pe pozitia indicelui sunt egale sa se seteze bitul de la indice cu valoare celor din stanga si drepata daca nu sunt egali cei 2 biti atunci sa se seteze bitul de la indice cu 1 daca numarul este impar pe biti sau 0 sau este par
+
+3. Sa se scrie o functie care primeste 4 parametri, un array de numere unsigned pe 16 biti(uint16_t), un numar uint32_t care reprezinta marimea
+array-ului, si doua numere uint8_t, p si n
+Functia pentru fiecare numar din array complementeaza n biti incepand de pe pozitia p
+n si p se dau hardcodate, array-ul se citeste de la stdin pana la EOF
+se poate testa de la tastatura si cu fisierul nr.txt
+fara memory leaks
+functia o sa verifice ca datele sunt corect
+
+4. un program care primeste un fisier (https://staff.cs.upt.ro/~valy/pt/queen1.txt va fi folosit pt testare) ca si argument in linie
+de comanda
+fisierul va fi interpretat binar, iar dupa in alt fisier ( primit tot ca argument in linie de comanda) se va afisa procentajul fiecarui
+caracter alfanumeric(litere mari, litere mici, cifre) sub formatul:
+(caracter) - (procentaj)%
+procentajul trebuie sa fie cu doua zecimale
+exemplu:
+a - 8.23%
+b - 6.15%
+etc

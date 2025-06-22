@@ -1,0 +1,286 @@
+1. Se da un fisier cu numar necunoscut de linii. Sa se afiseze numarul de linii, de cuvinte si de caractere si numele fisierului. Fisierul este primit ca si argument in linie de comanda.
+
+2. Sa se scrie o functie care primeste ca parametri un tablou de numere pe 16 biti fara semn, un numar intreg fara semn pe 8 biti "X" si lungimea tabloului
+
+Functia va returna cate numere din tablou au cei 8 mai semnificativi biti ca si x
+
+Numerele din vector sunt generate aleator intre 0 si 60000
+Iar numarul x se citeste de la tastatura.
+
+3. antet: void nume(uint16_t *array, uint32_t size, uint8_t p, uint8_t n)
+Sa se seteze pe 1 n biti incepand de la pozitia p pentru fiecare element al tabloului array de dimensiune size. Se va testa corectitudinea parametrilor. Functia se va testa prin date introduse de la tastatura si prin redirectare din fisier.
+
+4. antet: void nume(char *source_file, char *destination file, int n)
+Sa scriem fiecare caracter de pe o pozitie de forma 0*n, 1*n, 2*n etc. (divizibila cu n) din fisierul sursa in fisierul destinatie. Valorile parametrilor se vor da ca argumente in linie de comanda si programul trebuie sa fie eficient dpdv. al timpului si al memoriei alocate dinamic.
+
+5. Scrie o funcție în C char *string_to_array(uint16_t *string, int *size) care primește un șir de caractere cu numere binare de 16 biți separate prin spații, le convertește în valori uint16_t, le stochează într-un vector alocat dinamic pe care îl returnează și setează variabila size cu numărul de elemente. Se verifica toate cazurile de eroare si fara memory leaks. De exemplu, pentru inputul "1001100110011100 1100110011001100", funcția va returna {39372, 52428} și size = 2. antetul era cu "uint16_t *string_to_array(char *string, int *size)"
+
+6. Se da un string care contine numere de 16 biti fara semn scrise in binar (exemplu: string[] = “0000101100010111 0111001000001111 etc”). Se cere transformarea numerelor binare in numere zecimale si scrierea lor intr-un vector alocat dinamic.
+
+7. Se dădeau (de la tastatură sau redirectare) numere zecimale scrise câte 3 (adică 097098099) și trebuie să iei fiecare 3 numere și să transformi în caracter ascii și apoi să afișezi caracterul. Pentru 097098099 se printa abc.
+Am întrebat și a zis ca puteam sa presupun ca o linie are 5000 de caractere sau ceva număr random. Trebuia făcută o funcție char *text2ascii(const char *text_dec). Trebuie să iei linia,să o prelucrezi (transformi în ascii) și afișezi. Fișier exemplu parcă era decallines.txt sau ceva.
+
+8. Să citesc și să scriu într-un fișiere primite ca argumente în linie de comandă. Trebuia sa citesc eficient din fișier si sa iau fiecare cuvânt,sa l pun într-o structură definită de mine și la final fac histograma cuvântului (nu era case-sensitive,deci aici și Aici trebuie tratat ca fiind același cuvânt).
+Exemplu input:
+Masa scaun aici
+Afișare:
+masa - 33.33%
+scaun - 33.33%
+aici - 33.33%
+Altă chestie: trebuia afișată ca număr real cu precizie de 2 zecimale. Cuvintele trebuiau salvate într-un un tablou de structuri alocat dinamic. Se terminal fără memory leaks etc. Fișier test: random_text.txt sau ceva.
+
+9. Un fisier contine pe cate o linie numele unei persoane si un id atfel:
+IOANA 2345
+MATEI 123
+Sa se implementeze un tablou alocat dinamic in care se stocheaza datele citite din fisierul dat ca argument in linie de comanda. Pe langa acesta, se mai dau 2 argumente: al 2-lea argument este fisierul unde se vor afisa datele de iesire, iar al treilea argument este un numar.
+Daca al 3-lea argument este pozitiv(0 este considerat pozitiv) atunci se vor afisa in fisier persoanele in ordine crescatoare alfabetic, in functie de nume, dupa exemplul:
+NUME :: ID
+, iar daca este negativ, atunci se vor afisa in ordine crescatoare dupa ID:
+ID :: NUME.
+Programul se va termina fara memory leaks. Se considera necunoscut numarul de linii din fisier.
+
+10. Sa se scrie o functie care ia ca parametru un tablou de uint16 A si un parametru intreg pt dimensiune N si construieste pt fiecare variabila oglinditul pe biti al numarului.
+ex: 0111 1001 -> 1001 1110 0111 1001
+Tabloul va fi populat cu numere aleatoare pe 8 biti. 
+Marimea tabloului va fi definita de un macro
+Se va implementa si functia de afisare pe biti pt corectitudinea rezolvarii.
+
+11. Se da un fisier cu numar necunoscut de linii de forma 10.2.19 care reprezinta parametrii a, b si c a unei ecuatii de gradul 2. 
+Sa se construiasca o structura de date care sa retina urmatoarele date:
+parametrii a,b,c ai ecuatiei
+valoarea lui delta 
+solutiile ecuatiei
+o variabila care reprezinta val de compatibilitate a functiei
+ Sa se afiseze intr un fisier pe fiecare rand:
+{a,b,c} = (sol1,sol2) daca ecuatia este comaptibila
+{a,b,c} = Ecuatia nu este comaptibila    in caz ca ec nu e compatibila
+Fisierele de intrare si de iesire se vor da ca parametrii in linie de comanda si sa se stocheze toate datele intr un tablou alocat dinamic.
+
+12. Scrieți o funcție care primește ca parametru un tablou de nr întregi și dimensiunea lui și va returna in string care va conține nr din tablou despărțite prin spatiu.Stringul rezultat va fi alocat dinamic de o dimensiune minima necesara.Functia se va testa într-un program cu un tablou de o dimensiune definita printr-o MACRO cu elemente generate aleator cu valori maxime de 500000
+
+13. Se consideră un fișier de o dimensiune necunoscută ce conține triplete de nr despărțite prin punct ce reprezintă coeficientii unei ec de gradul 2 .Tripletele de nr între ele sunt despărțite prin spatiu.Coeficientii se consideră în ordinea citirii din fișier in sensul a.b.c va reprezenta a^2+bx+c=0.Citire fișier.Se va proiecta un tip de date de utilizator ce va conține structurile de date necesare pt a stoca asemenea date ,adică cei 3 coeficienții la care adaugă valoarea lui delta precum și 2 soluții reale și un câmp care că preciza dacă ec are sau nu sol reale
+Programul va scrie într-un alt fișier pe cate un rand coef. si sol. ec. 2 formate , fiecărui punct și distanta fata de origine
+
+14. Sa se creeze o functie char *squeeze_string(char *str) care ia ca parametru un sir citit de la tastatura si il modifica eliminand toate caracterele consecutive repetate, pastrand doar o aparitie a fiecarui caracter.
+Sirul rezultat trebuie alocat dinamic folosind minimul de memorie.
+De ex: 
+aaaannnaaa arre mmere !!!! => ana are mere !
+
+15. Un fisier de dimensiune necunoscuta contine pe fiecare linie un numar. Sa se stocheze numerele intr-un tablou alocat dinamic si sa se ordoneze descrescator elementele. Apoi, sa se afiseze numerele pe 4 bytes, tot descrescator. Se vor folosi argumente in linie de comanda.
+
+16. Sa se scrie o functie cu antetul char text2dec(const char text_dec) care sa transforme un string ce contine caractere numere intregi, in un string ce contine codurile caracterele codurilor ascii reprezentate de acele numere intregi.
+
+Ex: "097098099" -> "abc"
+
+17. Se da un fisier .csv cu un numar necunoscut de linii ce contin puncte dintr-un sistem xOy, separate printr-un punct (ex: 12.56, 153.23, 7.9 etc). Sa se creeze o structura de date corespunzatoare. Datele din fisier sa fie citite si stocate intr-un vector alocat dinamic. Sa se calculeze pentru fiecare punct, distanta dintre el si origine, iar apoi datele sa fie afisate sub forma "x.y - distanta" intr-un alt fisier. Se va utiliza minimul de memorie necesara.
+
+18. Se citesc un număr necunoscut de linii dintr-un fișier text. Fiecare linie are o lungime maximă de 300 de caractere. Programul trebuie să ordoneze aceste linii în ordine descrescătoare în funcție de numărul de vocale (a, e, i, o, u, indiferent de majuscule sau minuscule) conținute în fiecare linie.
+Dacă două sau mai multe linii au același număr de vocale, acestea trebuie ordonate alfabetic în ordine crescătoare.
+
+19. Se cere implementarea funcției:
+
+int functie(char *fisier_intrare, char *fisier_iesire).
+Funcția trebuie să citească datele dintr-un fișier binar de intrare (fisier_intrare), prelucrând fiecare element citit pe un singur octet (byte), și să scrie rezultatul într-un fișier text de ieșire (fisier_iesire), respectând următoarele reguli:
+
+Caracterele printabile (cifrele 0-9, literele mici a-z și literele mari A-Z) sunt scrise direct în fișierul de ieșire.
+Caracterele neprintabile (orice caracter care nu este literă sau cifră) vor fi convertite în format hexazecimal și scrise între paranteze rotunde.
+Fișierele vor fi specificate ca argumente în linia de comandă.
+
+Exemplu: 
+date intrare: 52 4E 2B 32 0A 61
+date iesire: RN(2B)2(0A)a
+Programul nu va avea memory leaks.
+
+20. se dă un array de numere de tip uint16_t de o anumită mărime aleasă cu un macro cu #define. să se scrie o funcție char *array_to_hexa_string(uint16_t *array, int size) care să convertească numerele din array (care sunt în baza 10) în baza 16 într-un string, valorile din string fiind despărțite printr-un spațiu. se testează cu numere random - numerele din vector vor fi atribuite cu rand()
+
+21.nse dă o structură de coordonate x și y alocată dinamic, valorile coordonatelor vor fi introduse într-un fișier în forma x.y și se citesc din respectivul fișier datele, se sortează cu BubbleSort după coordonata x (x-ul trebuie să fie crescător), iar apoi se afișează în alt fișier în forma (x, y), fiecare valoare una sub alta. fișierele vor fi accesate din linia de comandă.
+
+ex: fisier.in - 12.5 3.9 7.64
+
+      fisier.out - (3, 9)
+                   (7, 64)
+                   (12, 5)
+
+22. sa citesti un numar nedefinit de numere(pana la intalnirea lui eof), iar dupa ce le-ai pus intr-un array, trebuia ca fiecare numar din array sa-l modifici, astdel incat sa complementezi n biti, incepand de la pozitia p(citire standard, de la consola)
+
+23. sa citesti numere dintr-un fisier(primesti calea a doua fisiere, de unde citesti, si unde trebuie sa printezi) cu un numar nedefinit de linii. dupa citirea fisierului si punerea numerelor intr-un array, trebuia sortat descrescator arrayul si mai apoi fiecare numar trebuia scris in fisierul de iesire in binar
+
+24. Sir de caractere de la tastatura de forma"14142143" cu numere in baza 8 si sa fac un alt string unde le transform in reprezantarea lor ascii adica siru de mai sus devine "abc"
+
+25. 3 argumente in linie de comanda fisierin fisierout n fisier in e de forma NUME ID numele fiind char [51] si id int. Sa pun datele intr un vector alocat dinamic iar apoi daca n>=0 sa le sortez crescator dupa nume(alfabetic) daca n<0 sa le sortez crescator dupa id si sa le scriu in fisierout
+
+26. Sa se faca o functie char *fibo_str ( int n ) care returneaza adresa unui sir de caractere alocat dinamic ce contine primii n termeni ai sirului lui Fibonaci ( ex n = 6 : "0 1 1 2 3 5 8" )
+
+27. Se da funcția cu antetul următor: 
+char *text2dec(const char *text)
+
+Funcția primește că argument un string(ce conține,bineinteles doar caractere printabile) și returnează tot un string in care înlocuiești un caracter cu valoarea sa in zecimal cu 3 cifre cu padding de 0, conform tabelului Ascii. String-ul returnat va fi alocat dinamic de o dimensiune minima necesara.
+
+Se va testa funcția printr-un program ce va citi linii de text de la intrarea standard până la EOF. Pentru fiecare linie citită programul va afișa apoi string-ul procedat folosind funcția dezvoltata anterior
+Exemplu: "abc" => "097098099"
+Și zicea că trebuie să se testeze cu fișierul lui de text random
+
+28. se citeste dintr un fisier binar (pe care il descarcai de pe link) si sa se afiseze in alt fisier pentru fiecare caracter procentul sau de aparitii din toate caracterele din fisier(“caracter” - %procent de aparitii), dimensiunea fisierului este necunoscuta, iar programul primeste ca prim argument fisierul binar de intrare si ca al doilea fisieru in care se afiseaza
+
+29. Sa se creeeze o structura care sa retina valoarea și numărul de apariții al fiecărui element generat random (de la 0 la 400). Se va scrie intr-un fisier out.txt numărul și aparițiile sub forma : 
+								11-1
+								22-2 
+Elementele fiind sortate crescător in funcție de numărul de apariții 
+numărul de elemente și fișierul in care se scrie for fi transmise ca argumente in linie de comanda, se va folosi alocare dinamica
+
+30. Sa se scrie o functie de forma char *arr_to_str(uint16_t *array, int size), primind ca parametrii un array cu elemente pe 16 biti si dimensiunea acestuia. Functia va returna un string alocat dinamic care sa contina toate elementele array-ului afisate in hexa pe intreaga dimensiune si separate prin spatii. Lungimea maxima a array-ului va fi setată de programator printr-un macro.
+ex: pentru array-ul {123, 321, 12, 4556} funcția va returna string-ul “007B 0141 000C 11CC”
+Solutie:
+
+#include<stdio.h>
+#include<stdint.h>
+#include<string.h>
+#include<stdlib.h>
+#define LEN 100
+char *arr_to_str(uint16_t *array, int size)
+{
+    char *p,temp[10];
+    int dim=size*5;
+    if((p=(char*)calloc(dim+1,sizeof(char)))==NULL)
+    {
+        fprintf(stderr,"Eroare la alocare");
+        exit(-1);
+    }
+    for(int i=0;i<size;i++)
+    {
+            sprintf(temp,"%04X",array[i]);
+            strcat(temp," ");
+            strcat(p,temp);
+    }
+    p[dim]='\0';
+    return p;
+}
+int main(void)
+{
+    uint16_t array[LEN];
+    int size;
+    char *p=NULL;
+    printf("Dimensiunea tabloului: ");
+    scanf("%d",&size);
+    for(int i=0;i<size;i++)
+    {
+        printf("%d: ",i+1);
+        scanf("%hd",&array[i]);
+    }
+    p=arr_to_str(array,size);
+    printf("%s\n",p);
+    free(p);
+    return 0;
+}
+
+
+31. Se da un dicționar reprezentat de un fișier text cu număr nedefinit de linii cu lungime maximă de 100 de caractere, liniile având forma “CUV_EN=CUV_RO”. Sa se implementeze in memoria programului conținutul dictionarului într-un vector alocat dinamic având ca elemente fiecare linie a fișierului alocată dinamic la rândul ei. În plus, programul va citi de la intrarea standard cuvinte în limba engleză până la întâlnirea linii vide. Se va afișa traducerea cuvintelor citite de la tastatură dacă acestea sunt traduse în dicționar, altfel se va afișa “necunoscut”. Programul se va termina fără scurgeri de memorie sau erori de compilare.
+Soluție:
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int len_mat=0;
+char **arrstrs(char *input)
+{
+    FILE *in=NULL;
+    char **mat=NULL,line[100];
+    if((in=fopen(input,"r"))==NULL)
+    {
+        fprintf(stderr,"Eroare la deschiderea fisierului");
+        exit(-1);
+    }
+    while(fgets(line,100,in)!=NULL)
+        len_mat++;
+    rewind(in);
+    if((mat=(char*)calloc(len_mat,sizeof(char)))==NULL)
+    {
+        fprintf(stderr,"Eroare la alocarea vectorului de stringuri");
+        exit(-1);
+    }
+    int i=0;
+    while(fgets(line,100,in)!=NULL)
+    {
+        line[strcspn(line,"\n")]='\0';
+        if((mat[i]=(char*)malloc((strlen(line)+1)*sizeof(char)))==NULL)
+        {
+            fprintf(stderr,"Eroare la alocarea unuia dintre sirurile vectorului de stringuri");
+            for(int j=0;j<i;j++)
+                free(mat[j]);
+            free(mat);
+            exit(-1);
+        }
+        strcpy(mat[i],line);
+        mat[i][strlen(line)]='\0';
+        i++;
+    }
+    if(fclose(in)!=0)
+    {
+        fprintf(stderr,"Eroare la inchiderea fisierului de intrare");
+        for(int i=0;i<len_mat;i++)
+            free(mat[i]);
+        free(mat);
+        exit(-1);
+    }
+    return mat;
+}
+int main(void)
+{
+    char input[10]="input.txt";
+    char **mat=NULL,temp[100],*p=NULL;
+    mat=arrstrs(input);
+    printf("Dati cuvinte in engleza: ");
+    while(fgets(temp,100,stdin)!=NULL)
+    {
+        temp[strcspn(temp,"\n")]='\0';
+        for(int i=0;i<len_mat;i++)
+        {
+            if(strstr(mat[i],temp)!=NULL && strstr(mat[i],temp)<strstr(mat[i],"="))
+            {
+                p=strchr(mat[i],'=');
+                printf("Traducere: %s\n",p+1);
+                break;
+            }
+            if(i==len_mat-1)
+                printf("Termen necunoscut!\n");
+        }
+    }
+    for(int i=0;i<len_mat;i++)
+        free(mat[i]);
+    free(mat);
+    return 0;
+}
+
+32. Sa se creeze un program care citeste coordonatele unui punct in XOY. Sa se afle distanta de la origine la punct si sa se printeze într-un fisier pe cate o linie (x, y) = distanta pt fiecare punct si ss se afiseze la iesirea standard dupa acelasi format punctul cel mai apropiat de origine. Fisierul de citire si cel de iesire vor fi date ca si argumente linie de cod.
+De exemplu 
+Fisier intrare:
+12.34 23.3 4.3
+Fisier iesire: 
+(12, 34) = distanta de la punct la origine
+(23, 3) = distanta
+(4, 3) = 5
+Iesire standard:
+(4, 3) = 5
+
+33. Se citeste de la tastatura un numar pe 32 de biti si un index din intervalul [1, 24], bitul cu index-ul 0 este LSB. Sa se verifice daca bitii de pe pozitiile index + 1 si index - 1 sunt egali. In caz afirmativ sa se seteze bitul de pe pozitia index cu valoarea respectiva, iar in caz contrar sa se seteze bitul de pe pozitia index cu paritatea bitilor (0 pentru par; 1 pentru impar). Numarul rezultat va fi apoi afisat in hexazecimal si binar.
+
+34. Programul o sa primeasca 3 argumente in linie de comanda. Primul argument reprezinta numarul de parole care vor fi generate, al doilea dimensiunea parolei, iar al treilea fisierul in care vor fi scrise parolele. Programul va genera parole formate din cifre aleatorii nenule.
+
+35. 2. Se citesc dintr-un fisier de intrare transmis prin parametru un numar necunoscut de linii. Sa se scrie intr-un alt fisier, transmis prin urmatorul parametru, procentul de litere mari, mici dar si de cifre
+dupa urmatoarea structura:
+
+a - 9,234%
+b - 14,482%
+...
+
+Nu se accepta redirectarea intrarii standard. Programul se va termina fara memory leaks.
+
+37. Primeam un numar infinit de linii, pana la intalnirea liniei vide sau inchidere programului si trebuiau alocate dinamic, apoi facut palindromul lor. In caz ca era deja palindrom nu se schimba nimic, daca nu era, se punea palindromul. Ex: "abba abba" -> "abba abba", si al doilea exemplu: "mere" -> "erem". Nu conta daca erau litere mari sau mici. Si trebuia facuta intr-o functie problema
+
+38. 2. Primeam in argument de linie de comanda fisierul de intrare si de iesire. Din fisierul de intrare luam date de genu: "anamaria@yahoo.com;124.23.0.3" trebuia sa verific daca se incadrau intr-un set de reguli (nu le mai tin minte pe toate, dar cateva erau):
+- Primul element sa fie mereu o litera, mare sau mica
+- Apoi sa fie doar litere pana la aparitia lui @
+- adresa de email sa se termine cu .ro mereu
+- adresa ip sa nu aiba 0 ca prima cifra
+- adresa ip sa nu aiba mai mult de 4 cifre (gen 18383.4.66.0 nu e ok)
+Apoi sa se afiseze in al doilea fisier citit de la linia de comanda -OK daca se indeplineste si -NOT OK daca nu, asta pt fiecare linie respectiva
