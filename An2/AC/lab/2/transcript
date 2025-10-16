@@ -1,0 +1,60 @@
+do run_ex3.txt
+# ex3.v
+# ex3_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:22:38 on Oct 17,2025
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module ex3
+# -- Compiling module ex3_tb
+# 
+# Top level modules:
+# 	ex3_tb
+# End time: 00:22:38 on Oct 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" ex3_tb 
+# Start time: 00:22:38 on Oct 17,2025
+# Loading work.ex3_tb
+# Loading work.ex3
+# Time	i	o
+# 0	0000	zzzz
+# 10	0001	zzzz
+# 20	0010	zzzz
+# 30	0011	zzzz
+# 40	0100	zzzz
+# 50	0101	zzzz
+# 60	0110	zzzz
+# 70	0111	zzzz
+# 80	1000	zzzz
+# 90	1001	zzzz
+# End time: 00:22:44 on Oct 17,2025, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# ex3_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:24:55 on Oct 17,2025
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module ex3
+# -- Compiling module ex3_tb
+# 
+# Top level modules:
+# 	ex3_tb
+# End time: 00:24:55 on Oct 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" ex3_tb 
+# Start time: 00:24:55 on Oct 17,2025
+# Loading work.ex3_tb
+# Loading work.ex3
+# Time	i	o
+# 0	0000	zzz0
+# 10	0001	zzz1
+# 20	0010	zzz0
+# 30	0011	zzz1
+# 40	0100	zzz0
+# 50	0101	zzz1
+# 60	0110	zzz0
+# 70	0111	zzz1
+# 80	1000	zzz0
+# 90	1001	zzz1
+# End time: 00:24:58 on Oct 17,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

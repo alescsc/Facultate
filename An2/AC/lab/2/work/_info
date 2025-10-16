@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alex_/Documents/GitHub/Facultate/An2/AC/lab/2
+vex3
+Z1 !s110 1760649895
+!i10b 1
+!s100 _L[WNc11l07i5V0QiGFNJ3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7QP@RIB:6nzJ9XM2??m9R3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1760649891
+Z5 8ex3.v
+Z6 Fex3.v
+!i122 0
+L0 1 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1760649895.000000
+!s107 ex3.v|
+Z9 !s90 -reportprogress|300|ex3.v|
+!i113 1
+Z10 tCvgOpt 0
+vex3_tb
+R1
+!i10b 1
+!s100 ZLN84WK:?_?i9QLm=@jB^2
+R2
+IazN?I=;iP[67h0QkU;`Kl3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 8 15
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 ex3.v|
+R9
+!i113 1
+R10
