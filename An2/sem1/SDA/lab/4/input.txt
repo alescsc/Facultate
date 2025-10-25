@@ -1,0 +1,12 @@
+1,"Teodora Oprea"
+39,9347.01
+Research
+2,"Carmen Radu"
+36,8081.59
+Logistics
+3,"George Drăgan"
+45,8233.32
+Research
+4,"Bianca Chiriac"
+30,8669.67
+Innovation
