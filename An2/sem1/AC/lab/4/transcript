@@ -1,0 +1,132 @@
+do run_fac.txt
+# fac.v
+# fac_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:48 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# ** Error: fac.v(26): (vlog-2730) Undefined variable: 'x'.
+# ** Error: fac.v(26): (vlog-2730) Undefined variable: 'y'.
+# ** Error: fac.v(26): (vlog-2730) Undefined variable: 'ci'.
+# ** Error: (vlog-13051) fac.v(26): Illegal digit for specified base in numeric constant.
+# ** Error: (vlog-13069) fac.v(26): near "nt": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 20:00:48 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+do run_fac.txt
+# fac.v
+# fac_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:32 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# ** Error: (vlog-13051) fac.v(26): Illegal digit for specified base in numeric constant.
+# ** Error: (vlog-13069) fac.v(26): near "nt": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 20:01:32 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+do run_fac.txt
+# fac.v
+# fac_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:51 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# ** Error: (vlog-13051) fac.v(26): Illegal digit for specified base in numeric constant.
+# ** Error: (vlog-13069) fac.v(26): near "nt": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 20:01:51 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+do run_fac.txt
+# fac.v
+# fac_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:03:12 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# 
+# Top level modules:
+# 	FAC_tb
+# End time: 20:03:12 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" fac_tb 
+# Start time: 20:03:12 on Oct 26,2025
+# ** Error: (vsim-3170) Could not find 'fac_tb'.
+#         Searched libraries:
+#             C:/Users/alex_/Documents/GitHub/Facultate/An2/sem1/AC/lab/4/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_fac.txt PAUSED at line 25
+do run_fac.txt
+# fac.v
+# FAC_tb
+# End time: 20:04:10 on Oct 26,2025, Elapsed time: 0:00:58
+# Errors: 1, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:04:10 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# 
+# Top level modules:
+# 	FAC_tb
+# End time: 20:04:11 on Oct 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" FAC_tb 
+# Start time: 20:04:11 on Oct 26,2025
+# Loading work.FAC_tb
+# Loading work.FAC
+# x=x, y=x, ci=x, z=x, co=x
+# End time: 20:04:15 on Oct 26,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+run -all
+# No Design Loaded!
+do run_fac.txt
+# fac.v
+# FAC_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:06 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# 
+# Top level modules:
+# 	FAC_tb
+# End time: 20:06:06 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" FAC_tb 
+# Start time: 20:06:07 on Oct 26,2025
+# Loading work.FAC_tb
+# Loading work.FAC
+# x=x, y=x, ci=x, z=x, co=x
+# End time: 20:06:09 on Oct 26,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+do run_fac.txt
+# fac.v
+# FAC_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:09:30 on Oct 26,2025
+# vlog -reportprogress 300 fac.v 
+# -- Compiling module FAC
+# -- Compiling module FAC_tb
+# 
+# Top level modules:
+# 	FAC_tb
+# End time: 20:09:30 on Oct 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" FAC_tb 
+# Start time: 20:09:30 on Oct 26,2025
+# Loading work.FAC_tb
+# Loading work.FAC
+# t=10  x=0 y=0 ci=0 | z=x co=x
+# t=20  x=0 y=0 ci=1 | z=0 co=0
+# t=30  x=0 y=1 ci=0 | z=1 co=0
+# t=40  x=0 y=1 ci=1 | z=1 co=0
+# t=50  x=1 y=0 ci=0 | z=0 co=1
+# t=60  x=1 y=0 ci=1 | z=1 co=0
+# t=70  x=1 y=1 ci=0 | z=0 co=1
+# t=80  x=1 y=1 ci=1 | z=0 co=1
+# End time: 20:09:32 on Oct 26,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
