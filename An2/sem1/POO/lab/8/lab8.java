@@ -37,6 +37,8 @@ class Simpla extends Greutati
     {
         return cap;
     }
+
+    
 }
 
 class Dubla extends Greutati
