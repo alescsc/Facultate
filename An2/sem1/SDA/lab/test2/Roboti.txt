@@ -1,0 +1,21 @@
+20
+AlphaBot mecanica critica
+SolarUnit energie obisnuita
+VisionX senzori critica
+NeuroCore AI obisnuita
+TitanArm mecanica critica
+HydraCell energie critica
+EchoSense senzori obisnuita
+LogicMind AI critica
+SteelClaw mecanica obisnuita
+VoltStream energie obisnuita
+OptiTrack senzori critica
+DeepBrain AI obisnuita
+GearMaster mecanica critica
+FusionCore energie critica
+ScanEye senzori obisnuita
+SmartFlow AI critica
+IronGrip mecanica obisnuita
+PulseDrive energie obisnuita
+NanoSense senzori critica
+Cognitiva AI obisnuita
