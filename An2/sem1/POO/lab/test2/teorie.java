@@ -238,7 +238,7 @@ masini.add("Audi") - nu mai adauga
 class Student
 {
 	private String nume;
-
+	private int varsta;
 	// ...
 
 	public int hashCode()

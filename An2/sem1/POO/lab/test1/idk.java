@@ -10,7 +10,7 @@ class Test
 	}
 
 	public boolean equals(Object o)
-	{
+	{  
 		Test t = (Test) o;
 		if(o instanceof Test)
 		{
@@ -51,7 +51,7 @@ class Main
 			{
 				t[i] = new Test();
 			}
-		}
+		} 
 		catch(IOException e)
 		{
 			System.out.println("Nu s-a putut citi!");
