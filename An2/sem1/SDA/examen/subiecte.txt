@@ -1,0 +1,272 @@
+Se da o structura de date Rezervare care are 4 campuri: id(de la 1 la oricat), prioritate(1, 2 sau 3), zbor si pret(int la toate)
+se citesc dintr-un fisier numit rezervari.in pe prima linie "n B P", n e nr de rezervari, B e bugetul si P e prioritatea
+iar apoi n linii cu cele 4 campuri
+Cerinte: 
+A) sortare descrecatoare dupa prioritate, dar crescatoare dupa pret in cazu egalitatii a 2 prioritati
+B) sa se creeze si o structura zbor care are id, pointer la o lista de rezervari si pointer la urmatorul zbor(multilista)
+adauga aici functiile basic: addrezervare, addzbor, printzbor, printrezervare, printmultilista si eliminarezervare
+C) cu revursivitate o functie care returneaza suma tututor rezervarilor care au prioritatea mai mare ca P citit mai sus
+D) o structura de stiva cu cele 4 functii aferente in care punem vectorul de rezervari si calculam nr maxim de bilete pe care le putem lua cu buget B care sa aibe prioritatea mai mare ca P (asta o vei face dupa ce sortezi descrescator vectorul si apoi il urci in stiva de rezervari) si dai pop pana ce stiva e empty
+Ca si output scrie intr-un fisier rezervari.out  afisarea tuturor elementelor citite in vector la A + sa functioneze B-ul multilista si numerele de la C si D 
+
+REZOLVARE:
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//structuri
+typedef struct Rezervare{
+    int id;
+    int prioritate;
+    int zbor;
+    int pret;
+} Rezervare;
+
+typedef struct ListaRezervari{
+    Rezervare rez;
+    struct ListaRezervari *next;
+} ListaRezervari;
+
+typedef struct Zbor{
+    int idZbor;
+    ListaRezervari *lista;
+    struct Zbor *next;
+}Zbor;
+
+//A 
+int compareRez(Rezervare a, Rezervare b)
+{
+    if (a.prioritate != b.prioritate) //dupa prioritate dar descrescator
+        return b.prioritate - a.prioritate;
+
+    return a.pret - b.pret; // in caz de egalitate la prioritate luam dupa pret crescator
+}
+
+void quicksort(Rezervare *v, int n)
+{
+    if (n <= 1) return;
+
+    Rezervare pivot = v[n / 2];
+    int i = 0, j = n - 1;
+
+    while (i <= j)
+    {
+        while (compareRez(v[i], pivot) < 0)
+            i++;
+        while (compareRez(v[j], pivot) > 0) 
+            j--;
+
+        if (i <= j)
+        {
+            Rezervare aux = v[i];
+            v[i] = v[j];
+            v[j] = aux;
+            i++;
+            j--;
+        }
+    }
+
+    quicksort(v, j + 1);
+    quicksort(v + i, n - i);
+}
+
+//B
+Zbor *addZbor(Zbor *listaZboruri, int idZbor) 
+{
+    Zbor *nou = (Zbor*) malloc(sizeof(Zbor));
+    if(nou==NULL)
+        exit(1);
+    nou->idZbor = idZbor;
+    nou->lista = NULL;
+    nou->next = listaZboruri;
+    return nou;
+}
+
+ListaRezervari* addRezervare(ListaRezervari *lista, Rezervare r)
+{
+    ListaRezervari *nou = (ListaRezervari*) malloc(sizeof(ListaRezervari));
+    nou->rez = r;
+    nou->next = lista;
+    return nou;
+}
+
+Zbor* cautaZbor(Zbor *lista, int idZbor) 
+{
+    while (lista) 
+    {
+        if (lista->idZbor == idZbor) 
+            return lista;
+        lista = lista->next;
+    }
+    return NULL;
+}
+
+void printRezervare(Rezervare r) 
+{
+    printf("ID=%d Prior=%d Zbor=%d Pret=%d\n", r.id, r.prioritate, r.zbor, r.pret);
+}
+
+void printZbor(Zbor *z) 
+{
+    printf("Zbor %d:\n", z->idZbor);
+    ListaRezervari *p = z->lista;
+    while (p) 
+    {
+        printRezervare(p->rez);
+        p = p->next;
+    }
+}
+
+void printMultilista(Zbor *listaZboruri) 
+{
+    printf("\nB) Multilista\n");
+    while (listaZboruri) 
+    {
+        printZbor(listaZboruri);
+        listaZboruri = listaZboruri->next;
+    }
+}
+
+ListaRezervari* eliminaRezervare(ListaRezervari *lista, int id)
+{
+    if (!lista) 
+        return NULL;
+
+    if (lista->rez.id == id) 
+    {
+        ListaRezervari *tmp = lista->next;
+        free(lista);
+        return tmp;
+    }
+    lista->next = eliminaRezervare(lista->next, id);
+    return lista;
+}
+
+// C
+int sumaPrioritati(Rezervare *v, int n, int P) 
+{
+    if (n == 0) 
+        return 0;
+    int add = (v[n-1].prioritate >= P) ? v[n-1].pret : 0;
+    return add + sumaPrioritati(v, n-1, P);
+}
+
+// D
+typedef struct Stiva {
+    Rezervare v[1000];
+    int top;
+} Stiva;
+
+void initStack(Stiva* S) 
+{
+    S->top = -1;
+}
+
+void push(Stiva *s, Rezervare r)
+{
+    s->v[++(s->top)] = r;
+}
+
+int empty(Stiva *s) 
+{
+    return s->top == -1; 
+}
+
+Rezervare pop(Stiva *s)
+{
+    return s->v[(s->top)--];
+}
+
+// MAIN
+int main() 
+{
+    FILE *fin = fopen("rezervari.in", "r");
+    FILE *fout = fopen("rezervari.out", "w");
+
+    if (!fin || !fout) 
+    {
+        printf("Eroare deschidere fisiere!\n");
+        return 1;
+    }
+
+    int n, B, P;
+    fscanf(fin, "%d %d %d", &n, &B, &P);
+
+    Rezervare *v=malloc(sizeof(Rezervare)*n);
+
+    for (int i = 0; i < n; i++) {
+        fscanf(fin, "%d %d %d %d", &v[i].id, &v[i].prioritate, &v[i].zbor, &v[i].pret);
+    }
+
+    // A
+    quicksort(v, n);
+
+    printf("A) Rezervari sortate\n");
+    for (int i = 0; i < n; i++)
+        printRezervare(v[i]);
+
+    fprintf(fout, "A) Rezervari sortate:\n");
+    for (int i = 0; i < n; i++)
+        fprintf(fout, "ID=%d Prior=%d Zbor=%d Pret=%d\n", v[i].id, v[i].prioritate, v[i].zbor, v[i].pret);
+
+    // B
+
+    Zbor *listaZboruri = NULL;
+
+    for (int i = 0; i < n; i++) 
+    {
+        Zbor *z = cautaZbor(listaZboruri, v[i].zbor);
+        if (!z)
+            listaZboruri = addZbor(listaZboruri, v[i].zbor);
+
+        z = cautaZbor(listaZboruri, v[i].zbor);
+        z->lista = addRezervare(z->lista, v[i]);
+    }
+
+    printMultilista(listaZboruri);
+
+    // C
+    int suma = sumaPrioritati(v, n, P);
+    printf("\nC) Suma cu prioritatea > %d: \n%d \n", P, suma);
+    fprintf(fout, "\nC) Suma rezervarilor cu prioritatea > %d: %d\n", P, suma);
+
+    // D
+    Stiva st;
+    initStack(&st);
+
+    for (int i = 0; i < n; i++)   //incărcăm in stiva vectorul sortat
+        push(&st, v[i]);
+
+    int totalBilete = 0;
+    int buget = B;
+
+    while (!empty(&st)) 
+    {
+        Rezervare r = pop(&st);
+        if (r.prioritate > P && r.pret <= buget) 
+        {
+            buget -= r.pret;
+            totalBilete++;
+        }
+    }
+
+    printf("\nD) Nr maxim de bilete cumparate: \n%d \n", totalBilete);
+    fprintf(fout, "D) Nr maxim de bilete: %d\n", totalBilete);
+
+    fclose(fin);
+    fclose(fout);
+    
+    free(v);
+    
+    return 0;
+}
+
+
+
+
+
+
