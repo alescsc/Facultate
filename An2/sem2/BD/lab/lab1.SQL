@@ -1,0 +1,27 @@
+CREATE TABLE MASINA(
+    Nr_Inregistrare NUMBER(5) PRIMARY KEY,
+    Proprietar CHAR(6) REFERENCES Profesor(pid),
+    Nr_Inmatriculare CHAR(9) CONSTRAINT check_nr_inmatriculare CHECK(REGEXP_LIKE(Nr_Inmatriculare,'^[A-Za-z]{2} [0-9]{2} [A-Za-z]{3}$') AND SUBSTR(Nr_Inmatriculare, 4, 2) != '00'),
+    Culoare VARCHAR2(10) NOT NULL,
+    Vporbagaj NUMBER(5,2) NOT NULL CONSTRAINT check_vporbagaj CHECK(Vporbagaj >= 0 AND Vporbagaj <=300),
+    NrKm NUMBER(9,2) DEFAULT 0 NOT NULL CONSTRAINT check_nrkm CHECK(NrKm >= 0),
+    AnFabricatie NUMBER(4) NOT NULL
+)
+
+ALTER TABLE MASINA
+ADD CONSTRAINT MS_ANF_CK CHECK(AnFabricatie >= 1980 AND AnFabricatie <= 2024)
+
+INSERT INTO MASINA VALUES(19082, 'P41001', 'TM 01 ABC', 'rosie', 100, 12000, 2021);
+INSERT INTO MASINA VALUES(23063, 'P41002', 'TM 02 ABD', 'rosie', 100, 19000, 2021);
+INSERT INTO MASINA VALUES(33912, 'P41004', 'TM 40 PPT', 'rosie', 100, 8000, 2023);
+
+UPDATE MASINA
+SET NrKm = 34000 WHERE NrKm = 33912;
+
+UPDATE MASINA
+SET NrKm = NrKm + 1250;
+
+DELETE FROM MASINA
+WHERE NrKm > 20000;
+
+DROP TABLE MASINA;
