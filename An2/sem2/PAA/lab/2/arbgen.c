@@ -118,45 +118,64 @@ PNod Initializare_arbore(PNod Root)
 	return NULL;
 }
 
-void preordine(PNod arbore)
+// IMPLEMENTARE FUNCTII LAB
+// parcurgere preordine RADACINA, STANGA, DREAPTA
+void preordine(PNod p)
 {
-	printf("%s ", arbore->Nume);
-	PNod p;
-	p = arbore->Prim_fiu;
-	while(p != NULL)
-	{
-		preordine(p);
-		p = p->Frate_drept;
-	}
+	if(!p) return;
+	printf("%s ", p->Nume);
+    for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+			preordine(r);
 }
 
-void postordine(PNod arbore)
+// parcurgere inordine STANGA, RADACINA, DREAPTA
+void inordine(PNod p)
 {
-	PNod p;
-	p = arbore->Prim_fiu;
-	while(p != NULL)
-	{
-		preordine(p);
-		p = p->Frate_drept;
-	}
-	printf("%s ", arbore->Nume);
+	if(!p) return;
+	if(p->Prim_fiu)
+          inordine(p->Prim_fiu); // merg maxim in stanga
+	printf("%s ", p->Nume); // dupa ce am mers maxim in stanga afisez radacina
+	if(p->Prim_fiu)
+          for(PNod r = p->Prim_fiu->Frate_drept; r; r = r->Frate_drept) // ma ocup de dreapta
+            	inordine(r);
 }
 
-void inordine(PNod arbore)
+// parcurgere postordine STANGA, DREAPTA, RADACINA
+void postordine(PNod p)
 {
-	PNod p;
-	p = arbore->Prim_fiu;
-	while(p != NULL)
-	{
-		preordine(p);
-		printf("%s ", arbore->Nume);
-		p = p->Frate_drept;
-	}
+	if(!p) return;
+    for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+			postordine(r);
+	printf("%s ", p->Nume);
 }
 
+// inaltime arbore
+int inaltime_arbore(PNod p)
+{
+	if(!p) return 0;
+	int max_h = 0;
+	for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+	{
+		int h = inaltime_arbore(r);
+		if(h > max_h)
+			max_h = h;
+	}
+	return max_h + 1;
+}
 
-
-
-
-
-
+// grad maxim
+int grad_arbore(PNod p)
+{
+	if(!p) return 0;
+    int nr_fii = 0;
+    for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+		nr_fii++;
+    int grad_max = nr_fii;
+    for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+	{
+		int g = grad_arbore(r);
+		if(g > grad_max)
+			grad_max = g;
+	}
+	return grad_max;
+}

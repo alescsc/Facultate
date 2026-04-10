@@ -29,7 +29,11 @@ char * Tata(PNod root, const char *nume);
 char * Prim_fiu(PNod root, const char *nume);
 char * Frate_drept(PNod root, const char *nume);
 
-void preordine(PNod arbore);
-void postordine(PNod arbore);
-void inordine(PNod arbore);
+// --- Parcurgeri ---
+void preordine(PNod p);   // Radacina -> Stanga -> Dreapta
+void inordine(PNod p);    // Stanga -> Radacina -> Dreapta (Primul fiu, apoi Tata, apoi restul fratilor)
+void postordine(PNod p);  // Stanga -> Dreapta -> Radacina
 
+// --- Statistici Arbore ---
+int inaltime_arbore(PNod p);  // Returneaza inaltimea (adancimea maxima)
+int grad_arbore(PNod p);      // Returneaza numarul maxim de copii al oricarui nod

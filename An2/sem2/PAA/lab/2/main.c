@@ -27,7 +27,6 @@ void main()
 	Adauga_fiu(arbore, "fiu3", "fiu32");
 
 	Print(arbore);
-	preordine(arbore);
 
 	printf("tatal lui fiu15 e %s\n", Tata(arbore, "fiu15"));
 	printf("primul fiu al lui fiu2 e %s\n", Prim_fiu(arbore, "fiu2"));
@@ -43,9 +42,16 @@ void main()
 	Adauga_fiu(arbore, "rad", "f3");
 
 	Print(arbore);
+
 	preordine(arbore);
+	printf("\n");
+	inordine(arbore);
 	printf("\n");
 	postordine(arbore);
 	printf("\n");
-	inordine(arbore);
+
+
+	printf("%d\n", inaltime_arbore(arbore));
+	printf("%d\n", grad_arbore(arbore));
+
 }
