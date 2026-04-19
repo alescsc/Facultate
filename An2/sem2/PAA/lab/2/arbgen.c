@@ -179,3 +179,42 @@ int grad_arbore(PNod p)
 	}
 	return grad_max;
 }
+
+// afisare frunze
+void afisare_frunze(PNod p)
+{
+	if(!p) return;
+	if(p->Prim_fiu != NULL)
+          printf("%s ", p->Nume);
+    for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+			afisare_frunze(r);
+}
+
+// numarare frunze
+int numarare_frunze(PNod p)
+{
+	if(!p) return 0;
+    if(p->Prim_fiu != NULL)
+           return 1;
+	int nr = 0;
+	for(PNod r = p->Prim_fiu; r; r = r->Frate_drept)
+		nr = nr + numarare_frunze(r);
+	return nr;
+}
+
+// eliberare
+void distruge_arbore(PNod p)
+{
+    // 1. Conditia de oprire a recursivitatii
+    if (p == NULL) return;
+
+    // 2. Coboram maxim in adancime (eliberam toti fiii primului fiu)
+    distruge_arbore(p->Prim_fiu);
+
+    // 3. Mergem pe orizontala (eliberam toti fratii din dreapta)
+    distruge_arbore(p->Frate_drept);
+
+    // 4. Abia acum, cand "sub" si la "dreapta" nodului curent nu mai este nimic,
+    // il putem sterge pe el insusi in siguranta.
+    free(p);
+}

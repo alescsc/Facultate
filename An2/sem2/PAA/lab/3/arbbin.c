@@ -138,7 +138,7 @@ int grad_maxim(TNod* r)
 {
     if(!r) return 0;
 
-    int grad_curent 0;
+    int grad_curent = 0;
     if(r->stg != NULL)
         grad_curent++;
     if(r->dr != NULL)
