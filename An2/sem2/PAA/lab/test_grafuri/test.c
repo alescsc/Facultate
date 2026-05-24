@@ -210,7 +210,7 @@ int main(void)
     fscanf(f,"%d", &m); // nr muchii
     int i, j, P;
 
-    for(int k = 0; k < m; k++) // citim muchiile
+    for(int k = 0; k < m; k++) // citim muchiile 
     {
         fscanf(f,"%d %d %d", &i, &j, &P); // intre i si j se pune muchia cu ponderea P
         a[i][j] = P;
