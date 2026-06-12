@@ -1,1 +1,0 @@
-Anul 2, semestrul 2 + anul 3, semestrul 1 
