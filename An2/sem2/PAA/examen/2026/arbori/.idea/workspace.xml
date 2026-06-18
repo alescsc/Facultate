@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6671f65-a8fb-41c7-bfbd-160cd8ded176" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../sem1/SDA/sda_fizadean_alexandru_3.2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../sem1/SDA/sda_fizadean_alexandru_3.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/examen/DOC-20240417-WA0003..pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/examen/Grile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/examen/Software Engineering Fundamentals 2024 (fisier recomandat de citit inainte de examne).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/examen/Teorie-FIS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 1/.outside" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 1/IMG_20240313_090251.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 1/IMG_20240313_090252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 1/IMG_20240313_090300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 1/IMG_20240313_090314.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.45 PM (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.46 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.46 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.46 PM (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.47 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.47 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.47 PM (7).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.47 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.48 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2022-03-27 at 10.57.48 PM (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.26 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.26 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.26 PM (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.26 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.27 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.27 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 2/WhatsApp Image 2024-03-26 at 3.22.27 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/.outside" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/IMG-20240410-WA0000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/IMG-20240410-WA0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/IMG-20240410-WA0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/IMG-20240410-WA0003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/IMG-20240410-WA0005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/Screenshot 2024-04-08 220927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/p9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 3/test fis 3 intrebari mosteniri.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/._Assignment1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Assignment1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Expresie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._ExpresieBinara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Inmultire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Numar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Parcurgere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/._Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Expresie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/ExpresieBinara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Inmultire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Numar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Parcurgere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Code/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Diagram/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/A1/Diagram/Class.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/Transmitere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/._Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/._code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Afisare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Expresie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._ExpresieBinara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Inmultire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Numar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/._Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Afisare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Expresie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/ExpresieBinara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Inmultire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Numar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq2/code/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/._Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/._code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/code/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/code/._code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 4/seq3/code/code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/.outside" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/2025/test fis 5/IMG-20240625-WA0011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/19a648b8-c5be-4df9-8f7d-3805c272c103_FIS_curs_2_-_Software_Processes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/57c40cc4-dfc9-437d-8945-826702f87641_FIS_curs_3_-_Requirements_Engineering_in_a_Nutshell.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/5e16fffb-eaf8-4864-93ba-511d291f078c_FIS_curs_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/83710917-557c-4100-b780-e00dd454ad7b_FIS_curs_4_-_Object-Oriented_Analysis_and_Modeling.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Notite_Cursuri/Lecture-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Notite_Cursuri/Lecture-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Notite_Cursuri/Lecture-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Notite_Cursuri/Lecture-4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Notite_Cursuri/Lecture-5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Notite_Cursuri/Lecture-6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Video curs 2020.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/Video curs 2022.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/fse-lecture1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/fse-lecture2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/fse-lecture3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/fse-lecture4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/fse-lecture5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Curs/fse-lecture6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Ani anteriori notite/Cahper 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Ani anteriori notite/Chapter 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Ani anteriori notite/Chapter 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Ani anteriori notite/Notite_Cursuri_FIS.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Ani anteriori notite/Notite_Cursuri_FIS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Examen FIS - Raspunsuri 2025.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Subiecte/DOC-20240417-WA0003..pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Subiecte/Grile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Subiecte/Software Engineering Fundamentals 2024 (fisier recomandat de citit inainte de examne).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Subiecte/Teorie-FIS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Subiecte/varianta 1 examen.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Examen/Subiecte/varianta 2 examen.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Materiale_EXTRA/PressmanBook.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Materiale_EXTRA/brooks.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Materiale_EXTRA/pressman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIS/Materiale_EXTRA/sommerville.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Arbori B 1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Arbori B 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Arbori Binari.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Arbori Generalizati.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Arbori Regasire 1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Arbori Regasire 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Grafuri 1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Grafuri 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Grafuri Ordonate.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Cerinte VPL/VPL Grafuri Ponderate.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/103124446_1061243567605700_5708342327426719384_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/103451549_4050075781731940_5293487221433260298_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/103951566_187294946017102_5259848477381212069_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/103982923_888028081703201_789905552658026720_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104006038_583703638950292_3971774263219566512_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104024998_257851015448459_7278473497253269825_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104129312_304226000968525_6472464590718827779_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104157580_1281210412086180_836158023623586703_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104185472_313025829707198_1346998292338418158_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104207559_293641205147281_7963191936658370211_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104210122_274637467114072_5240347520487492078_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104219753_304076370753897_7061970513030021222_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104269795_2328074447486392_1557112675269973233_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104279173_2991135550962587_800245253299385580_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104288292_256701698893240_8406385131952082204_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104294511_603015810338464_2456354674708428971_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104299429_1349568438570396_6222952037401095016_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104315321_1414776752244705_7124824131436980952_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104326474_875330286320307_936705584882618981_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104350130_579453716328972_7061712400076461801_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104356509_576890383209822_6168727840636768250_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104371860_315714816101971_2332715419982913025_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104378715_958524771243311_7888005637068778638_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104384036_268283957943659_30009495115805912_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104403898_2882311718665266_5482115017454441537_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104413885_708799722996198_8466433522020445559_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104415364_644001599526858_5393788062239619434_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104419211_189674922421288_7202995034095535904_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104419807_620677225472648_6377367814991770160_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104427737_2705018039775270_6055344487237875497_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104430086_3626532110707188_7066157989857921823_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104431958_3897886076953058_5081561196560930887_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104434530_184948136291999_7551064614791930697_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104451985_888244948338885_8244767388016965275_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104474557_3589393077742668_2455918666429350929_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104483416_257407732212761_6493987356831883855_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104491143_468669280639034_3854460153177543368_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104565243_899240577261495_2054137542448990572_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104599392_2437271353234216_805107473195931313_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104606325_263972084934805_8481310351028387991_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104682989_321041452220646_4480636269850257848_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104759604_300967951281631_5020136053613161071_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104857121_185257372924427_3396912287086327713_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/104875199_193905895261522_9134801255054182023_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/105344659_269742690768355_6460322435746922175_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/131300607_506487047241547_751958275789144977_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/131335712_265687891967983_7940616209602756255_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/131336535_493879901932340_4791485027171361219_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/131357346_318660236405214_2545774233246518849_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/131362357_157320703084094_8818190407180675388_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/131596630_332711061596347_8738946738371223811_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/161466273_134240995280537_5760294101945142975_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/161482727_465621194680796_7624131698642364600_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/161573088_263366768654231_4984939294962654141_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/161899216_1390266011306522_7940506627212074104_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/162033584_233094601863958_1833529841076264823_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/162394900_832325334292090_629585338278086942_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/193474177_1125287397979606_8577070575541734880_n (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/193546729_387974955899289_4869289143292739764_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/193558203_1084453461964333_6237530869489084715_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/193632443_292804319182890_745784953297081844_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/193977634_511022956767962_7845247547836267588_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/194027034_468449080885115_8812138875741971470_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/194111442_481192753210923_4005605769565086428_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/194198704_1219455051842022_8410207844960716152_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/194939998_319549793058526_7884604938981409020_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/195853250_932169207630966_4630308401320876107_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/196935033_444812706562500_6865081002533435478_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/196988233_318524853142856_3426006365428608648_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/196996647_270254654846623_671218165404708373_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197096593_4127799137311070_2950275856061708669_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197183277_304427071312472_8593034976237706457_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197288242_337629877768538_196084473137920827_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197328251_318437553151519_8250568063189079059_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197371411_955240275269486_4150524703592661724_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197390001_548481949837193_749888170778017591_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197767659_127081469448062_4417706399133302296_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197788130_217084390091447_6138020372658868587_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/197830543_5713160148756098_1382479844714779446_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198498372_783409495876466_2429225662418342089_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198595224_1160310721141321_8897895546727555936_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198706780_1722464201278620_7898017104397921405_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198712466_3069462293329402_8182908180410470584_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198720782_514665199978211_8819362777120711464_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198728051_1745327245854703_4319949945138163016_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198733133_538787563796691_6187110252145004356_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198742172_263337052252911_464972183448194025_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198748302_225626536060904_7576071782036884246_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198759334_134083075388461_1248694364797727503_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198808361_1211818959257575_4782059876779159046_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198826762_923990761499828_13735309325421383_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198832291_508483066966268_8812719835309480946_n (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198832308_5617196161688434_2384328217136375793_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198845208_2914591012113576_6868826586611435655_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198919974_233905754856181_8300709174107171475_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198921577_566230561028673_7160436997831822197_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198943681_840915753190076_3078882066311801840_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198966934_4606028489424916_7640592664792203181_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198976906_323924752715216_7081404588441981335_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/198992590_480395076581508_2639571531274161307_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199001234_2869840859924529_8715049499463462285_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199018195_4090946980953511_333582715736130251_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199037258_973194576840876_3342976489931304798_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199046991_891647661766558_7865935304864045357_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199058620_529083921864678_6140904916791873088_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199066547_783448172365948_2712391369931372381_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199109776_471837240578078_5630911998858457533_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199157667_485628445997114_1441097326591441826_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199160058_754343208595818_7395507092078000412_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199162597_371986181273129_3563497559214031260_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199180270_504459634010510_8211899944030946037_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199183061_316198336673443_1768852291666588444_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199183072_4543338159012841_1017627921000960306_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199231021_2571947586444840_423878536356875273_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199246619_596870651229276_511517227311474443_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199252410_220519676383324_7828038799939102199_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199252560_124178776456008_5133128136371500654_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199256063_521685015534191_3613732477767551746_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199273902_1002420120498531_4781759467350684882_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199297931_184588376928641_4355560716892595178_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199306428_479181693386314_3837831621915030254_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199311606_163805885722837_4972383233500401798_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199348368_1625947344268140_5765690704128749536_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199354055_169830121683772_7542842683034148823_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199373142_790183201638996_3955607388029644666_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199380432_1226872797753018_1901125688109038610_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199417073_990010161755092_7611700996417420322_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199427931_316671330082986_3180502170264635136_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199449416_950663382376568_2805512881975171681_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199469593_316867999904769_6670355257575634748_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199475414_336185871237796_7792776216543891896_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199487224_589686872009970_4801326049186716870_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199487230_773556976618324_3445930757709724917_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199500652_248934776992508_7608454839898825622_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199556948_922675448288320_142187610702479409_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199618333_356098375940194_3285712359720985265_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199637502_1205932499906252_3518262501730860748_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199658368_2914857328728503_5903189263522759150_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199687239_240642847402878_7047202695083379488_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199697155_855522951702150_7834835849135049343_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199703015_126763959544508_6013735275112268439_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199703022_754453245228634_2760196286527828611_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199703022_953369482086907_8719815599386743066_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199703024_487334505857586_6801341724281854216_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199722245_644270343196070_1518405934499327651_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199736754_384467766318051_5643536041712637964_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199736764_517808656203353_8882770702674763613_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199811217_1264504880631341_1977132944185547944_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199841466_236186494594564_2876343456867046033_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199848560_982948749132636_2425791808224835385_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199848566_493050821754488_3962471346278312570_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199848571_175755761169127_4190587206072992690_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199848575_387349705995285_2791930874129518735_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199877182_976938343081182_7549708026682174131_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199882136_988337725340130_5238552371430386878_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199895413_1225556911239070_1229684681221344255_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199903022_764934144169550_5655113856510600749_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199958957_315813703344055_7860130881284172674_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/199998609_156140536551579_6642052538755679007_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200009774_517137579629030_888961645723420237_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200034245_781223905752432_8188359060704361275_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200060353_234329275124056_3310295777314742789_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200071528_150666440446466_5473252121087647838_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200117371_815713015998107_8997798425021487852_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200202400_528194838194873_7312438203015836344_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200208238_2957615071225711_2946300095370343576_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200235839_329394842188236_5435507038586859494_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200279944_1241949576261769_663099346267908172_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200313034_761319244563176_8118075808442547348_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200319692_191244026245750_5925153844267640188_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200335001_839150310337972_7117395560851669819_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200367848_1046535069210007_1421502655193892697_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200373097_929782974484113_8023325269914655379_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200417441_1074507613079422_749841646867701629_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200573540_2965469377075076_7964242824480588344_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200579997_2853587551527768_5513165701951503552_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200608431_860963968109070_8470507165993042455_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200608431_945625202936431_5581608163752590029_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/200816460_601007434129078_3232111579580765691_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/201138757_991870088170695_7521194967312293426_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/201205349_286071743199428_3473364974420263929_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/201221550_536292334036533_6904357950557883032_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/201258508_822017322080006_3133957562665811474_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/83104587_919713985212383_3508405980957962167_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/83259384_690852691695711_4102347734746425147_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/83416702_597431714530960_4898817742852200838_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/83608859_2501864596791672_3826977943366643905_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/83633697_1115611848820275_5214413608352342144_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/84388981_309458243381423_3808998655992109689_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91351312_701646327321833_7329746403729604608_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91462452_216192726151063_5002532539194146816_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91468706_1026852854382084_2035854304060899328_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91491075_420282665505334_6522372730531086336_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91523156_2794986120618991_1472135328155303936_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91569302_239826253870654_5560018525415800832_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/91576949_229880384881275_8185294646323183616_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/92099858_211043190163662_3439625851786756096_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/92130006_565410620765668_2864066312471052288_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/92953091_229626568251918_2138960762142457856_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/93763493_930083140781857_3301209840499556352_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/Grile 2021-PAA/95343936_554749665185165_7957595675225489408_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.27 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.27 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.27 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.28 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.28 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.28 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Arbori (S1)/WhatsApp Image 2022-06-08 at 12.20.38 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grafuri (S2)/WhatsApp Image 2022-06-07 at 3.45.24 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grafuri (S2)/WhatsApp Image 2022-06-07 at 3.45.24 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.24.47 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.26.16 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.28.44 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.29.06 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.29.29 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.32.45 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.34.00 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.37.28 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P2/Cerinte P2 PAA.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P2/grila1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P2/grila2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P2/s1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020_2024/P2/s2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Probleme/ArboriBinOrd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Probleme/Arborigen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Probleme/P2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Probleme/arbgen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Probleme/pointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Source (1).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Ceva Probleme/arb-simplii.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi-Probleme-PAA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/alta cu angajati.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/angajati modificata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/arb regasire scurt cuvant.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/cautare prin cuprindere graf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/cel mai lung ciclu.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/epoch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/graf ponderat orientat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/grafuri orientate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/indicatori parinte(seamana).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/modificata1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/modificata2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/modificata3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/modificata4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/primul-fiu, frate-drept modificata 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/primul-fiu, frate-drept modificata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Enunturi/primul-fiu, frate-drept.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/PAA.P2/RomeoSiJulieta/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/PAA.P2/complementGraf/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/PAA.P2/dijkstra/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/PAA.P2/drumMinimPrim/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/PAA.P2/mediaAritPonderi/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/PAA.P2/tenis/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB1/209791197_210119234314223_4061220845697809171_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB1/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB2/199630442_772748060070076_9059257423082309641_n (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB3/208642358_978560562894139_5781481700115037476_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB3/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB4/208413366_337685111344043_2668774331957370999_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Probleme_Rezolvate/PB4/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Arbori B + stiva/Cerinta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Arbori B + stiva/Rezolvare.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Arbori Regasire/Cerinta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Arbori Regasire/Rezolvare.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Arbori b unix epoch/Cerinta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Arbori b unix epoch/Rezolvare.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Graf neorientat si neponderat/Cerinta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/Rezolvare subiecte examen/Graf neorientat si neponderat/Rezolvare.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.22 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.23 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.23 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.24 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.24.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.27 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.27 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.28 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.28 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.28.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/WhatsApp Image 2022-06-07 at 15.45.29.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/dsadsa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/problema 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/problema 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2021/problemaaaa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/WhatsApp Image 2026-06-09 at 18.43.43 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/WhatsApp Image 2026-06-09 at 18.43.43 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/WhatsApp Image 2026-06-09 at 18.43.43 (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/WhatsApp Image 2026-06-09 at 18.43.43.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.37.54 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.37.54.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.37.58.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.37.59.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.00.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.03.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.04 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.04.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.05 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.05 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.05 (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.05 (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.05 (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.05.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06 (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06 (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06 (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06 (6).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.06.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07 (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07 (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07 (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07 (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07 (6).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.07.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probleme curs/grafuri/WhatsApp Image 2026-05-26 at 10.38.08.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.27 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.27 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.27 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.28 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.28 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-07 at 3.45.28 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Arbori (S1)/WhatsApp Image 2022-06-08 at 12.20.38 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grafuri (S2)/WhatsApp Image 2022-06-07 at 3.45.24 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grafuri (S2)/WhatsApp Image 2022-06-07 at 3.45.24 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.24.47 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.26.16 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.28.44 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.29.06 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.29.29 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.32.45 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.34.00 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P1/Grile (S3)/WhatsApp Image 2022-06-08 at 11.37.28 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P2/Cerinte P2 PAA.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P2/grila1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P2/grila2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P2/s1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P2/s2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab/test_grafuri/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab/test_grafuri/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab/test_grafuri/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab/test_grafuri/test.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3FBCOAcT6hvs5Fqv9tDyFqrWf9I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/alex_/Documents/GitHub/Facultate/An2/sem2/PAA/examen/2026/arbori/main.cpp",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arbori.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arbori" TARGET_NAME="arbori.c" CONFIG_NAME="arbori.c">
+      <option name="sourceFile" value="arbori.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6671f65-a8fb-41c7-bfbd-160cd8ded176" name="Changes" comment="" />
+      <created>1781539041095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781539041095</updated>
+      <workItem from="1781539042470" duration="228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

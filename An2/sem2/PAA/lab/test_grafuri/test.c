@@ -30,7 +30,7 @@ void arbore_acoperire(int nod, int n, int a[MAX_NODURI][MAX_NODURI], int vizitat
         }
 }
 
-void parcurgere_latime(int nod, int n, int a[MAX_NODURI][MAX_NODURI])
+void parcurgere_cuprindere(int nod, int n, int a[MAX_NODURI][MAX_NODURI])
 {
     int vizitat[MAX_NODURI] = {0}; // initializam vector pentru vizitat si coada
     int coada[MAX_NODURI] = {0};
@@ -249,7 +249,7 @@ int main(void)
     printf("Numar total componente conexe: %d\n\n", CC);
 
     //parcurgere latime
-    parcurgere_latime(1, n, a);
+    parcurgere_cuprindere(1, n, a);
 
     //arbore acoperire
     for (i = 1; i <= n; i++)
