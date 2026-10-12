@@ -1,7 +1,0 @@
-hello
-apple
-test
-enter
-show last
-show all
-
