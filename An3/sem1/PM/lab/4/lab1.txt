@@ -1,0 +1,99 @@
+Registre
+
+AX - 16 biti impartit pe doua jumatati: AH, AL
+BX - la fel la toate
+CX      
+DX
+AH - A higher
+AL - A lower
+
+.data - declaram variabile si constante
+A db 7 
+B dw ? - nu cunosc valoarea variabilei
+V db 2, 3, 5 - vector
+
+- se pot si in hexa sau in binar
+H db 1001101b
+
+- constante
+PI EQU 3.14
+
+db - 8 biti
+dw - 16 biti
+dd - 32 biti
+
+.code
+- avem instructiunile
+structura: eticheta (optionala) : nume instr. OP1, OP2 ...  ; comentarii
+
+MOV OP1, OP2 - copiaza val. din OP2 si o pune in OP1
+             - OP1 trebuie sa fie registru
+             - trebuie sa aiba acelasi nr de biti
+
+ADD OP1, OP2 - suma OP1 cu OP2, rezultatul se pune in OP1
+             - OP1 trebuie sa fie registru
+
+SUB OP1, OP2 - scadere, se pune rezultatul in OP1
+             - OP1 = OP1 - OP2
+             - OP1 trebuie sa fie registru
+
+EX1 - avem doua val. diferite pe AH, AL
+    - sa se interschimbe valorile de pe AH in AL
+
+.data
+A db 7
+B db 8
+
+.code
+MOV AH, A
+MOV AL, B
+MOV BH, AH
+MOV AH, AL
+MOV AL, BH
+--------------------------------------------------
+
+INC OP - increse (OP++)
+DEC OP - decrease (OP--)
+
+MUL OP => OP*AL mereu, rezultatul vine pe AX (dar noi in practica il punem pe AL doar la exercitii)
+
+DIV OP => AX/OP pe AL catul
+                pe AH restul
+
+EX2 - [(A^2)--]+(B % C)
+
+.data
+A db 4
+B db 2
+C db 8
+
+.code
+MOV AL, A
+MUL A
+MOV A, AL
+DEC A 
+MOV AL, B 
+MOV AH, 0
+DIV C 
+ADD A, AH
+
+EX3 - (A^3)-[(B^4)/A]+(A^2%B)
+
+.data
+A db ?
+B db ?
+
+.code
+MOV AL, A 
+MUL A 
+MUL A 
+MOV BH, AL 
+
+MOV AL, B
+MUL B
+MUL B
+MOV AX, AL
+
+DIV A
+
+ADD BH, AH 

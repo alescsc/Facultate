@@ -1,0 +1,20 @@
+PROIECT PM
+
+- ciurcuitele se gasesc in software-ul CAD dupa nume
+- doua intefete plasate/mapate in zone de memorie specifice => de ce am plasat circuitul unde l am plasat (intrebare care o putem primi)
+- 14 leduri + un d ala ca la ld in forma de 8 (sa putem afisa si hexa, nu doar cifre) + un modul LCD
+- rutine (programe in assembly)?
+- rutina tastatura - matrice butoane
+- descriere hardware - nu prea mult text
+		     - fiecare componenta/circuit scris cate 2 randuri ce face, ce e, cum se cheama 
+	             - schema circuit
+	             - tabel logic daca are (intrari iesiri)
+		     - memory mapping
+		     - sa explicam cum ne am ales adresele pt interfata seriala si pt interfata paralela
+- programare - rutine
+- bibliografie
+- scheme in soft de tip CAD - sa fie una mare in care toate componentele sunt legate intre ele cu zoom in zoom out
+- nota data pe aceste 3 mari categori
+- posibile intrebari: - 2/3 intrebari pe partea de hardware
+		      - 2/3 intrebari pe cod: ex. ce face instructiunea asta, ce ai putea folosi, care sunt operanzi, de ce instructiunea asta
+		      - 2/3 intrebari pe schema hardware: ex. sa vorbim despre componenta x, de ce am legat o asa, de ce am folosit componenta aia, ce inseamna
