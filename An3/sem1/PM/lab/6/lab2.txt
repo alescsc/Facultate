@@ -1,0 +1,83 @@
+Instructiuni de salt (Jumps)
+
+JMP - instructiune de salt generala
+JS/JL - salt doar daca e mai mic 
+JZ/JE - salt doar daca sunt egale
+JG/JGE - salt doar daca e mai mare sau egal
+
+JMP + eticheta
+
+CMP OP1, OP2 - compar OP1 cu OP2 prin OP1 - OP2
+
+REGISTRU FLAG
+#bg z - daca diferenta e zero
+#bg s - daca diferenta e negativa
+^ se verifica la jump-uri
+
+
+if(...)
+    do1
+else
+    do2
+
+=>
+
+CMP(...)
+JMP else
+do1
+else: do2
+
+ex1.
+
+if(n>=0)
+    n--;
+else
+    n++;
+
+Rezolvare:
+
+MOV AL, N
+CMP AL, 0
+JS else 
+DEC N
+MOV AL, N
+JMP FINAL
+else: INC N 
+      MOV AL, N
+final: MOV AL, N
+
+ex2.
+
+while(n!=0)
+    n--;
+
+Rezolvare:
+MOV AL, N
+while: CMP AL, 0
+       JE final
+       DEC N 
+       MOV AL, N
+       JMP while 
+final: NOP
+
+ex3.
+
+while(n>=0)
+    n--;
+
+Rezolvare:
+
+MOV AL, N 
+while: CMP AL, 0
+       JS final
+       DEC N 
+       MOV AL, N 
+       JMP while 
+final: NOP
+
+
+FOR - instructiune noua: LOOP
+LOOP - sare ca un salt normal la eticheta, dar decrementeaza valoarea din registrul CX
+exemplu in laborator
+
+Tema: problema 3
