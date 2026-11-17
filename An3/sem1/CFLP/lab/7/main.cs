@@ -35,6 +35,11 @@ public class AscultatorCaracter
 
     public void HandleKeyPressed(object sender, string sir)
     {
+        if(sir == "afiseaza ultim" || sir == "afiseaza toate")
+        {
+            return;
+        }
+
         if(sir.IndexOf(caracterCautat) != -1)
         {
             Console.WriteLine($"Caracterul '{caracterCautat}' a fost gasit in sirul: \"{sir}\"");
@@ -55,7 +60,7 @@ public class AscultatorComplex
     }
     public void HandleKeyPressed(object sender, string sir)
     {
-        if(sir == "afiseaza ultimul")
+        if(sir == "afiseaza ultim")
         {
            if(istoricSiruri.Count > 0)
             {
