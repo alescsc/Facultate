@@ -1,138 +1,138 @@
 using System;
 using System.Collections.Generic;
 
-public enum AccountType
+public enum TipCont
 {
-    Person,
-    Company
+    Persoana,
+    Companie
 }
 
-public class Account
+public class Cont
 {
-    public string AccountHolder { get; private set; }
-    public AccountType Type { get; private set; }
-    public string Iban { get; private set; }
-    public decimal Amount { get; private set; }
+    public string Titular { get; }
+    public TipCont Tip { get; }
+    public string Iban { get; }
+    public double Suma { get; private set; }
 
-    public Account(string accountHolder, AccountType type, string iban, decimal initialAmount)
+    public Cont(string titular, TipCont tip, string iban, double suma)
     {
-        AccountHolder = accountHolder;
-        Type = type;
+        Titular = titular;
+        Tip = tip;
         Iban = iban;
-        Amount = initialAmount;
+        Suma = suma;
     }
 
-    public void Deposit(decimal amount)
+    public bool Depunere(double suma)
     {
-        if (amount > 0)
+        if (suma <= 0)
         {
-            Amount += amount;
+            Console.WriteLine("Nu se poate depune o suma negativa sau nula!");
+            return false;
         }
+
+        Suma += suma;
+        Console.WriteLine($"Ati depus {suma} RON. Aveti: {Suma} RON");
+        return true;
     }
 
-    public void Withdraw(decimal amount)
+    public bool Retragere(double suma)
     {
-        if (amount > 0 && Amount >= amount)
+        if (suma <= 0)
         {
-            Amount -= amount;
+            Console.WriteLine("Nu se poate retrage o suma negativa sau nula!");
+            return false;
         }
-        else
+
+        if (Suma < suma)
         {
-            Console.WriteLine($"Fonduri insuficiente in contul {Iban}.");
+            Console.WriteLine($"Nu aveti bani suficienti in cont! Fonduri: {Suma}");
+            return false;
         }
+
+        Suma -= suma;
+        Console.WriteLine($"Ati extras {suma} RON. Mai aveti: {Suma} RON");
+        return true;
     }
 
     public override string ToString()
     {
-        return $"Titular: {AccountHolder} | Tip: {Type} | IBAN: {Iban} | Sold: {Amount} RON";
+        return $"Titular: {Titular}, Tip: {Tip}, Iban: {Iban}, Suma: {Suma}";
     }
-}
+}   
 
-public class Bank
+public class Banca
 {
-    public string Name { get; private set; }
-    public string Swift { get; private set; }
-    public List<Account> Accounts { get; private set; }
+    public string Nume { get; }
+    public string Swift { get; }
+    public List<Cont> Lista { get; } = new List<Cont>();
 
-    public Bank(string name, string swift)
+    public Banca(string nume, string swift)
     {
-        Name = name;
+        Nume = nume;
         Swift = swift;
-        Accounts = new List<Account>();
     }
 
-    private Account GetAccount(string iban)
+    private Cont? GetAccount(string iban)
     {
-        foreach (Account acc in Accounts)
+        for (int i = 0; i < Lista.Count; i++)
         {
-            if (acc.Iban == iban)
-            {
-                return acc;
-            }
+            if (Lista[i].Iban == iban)
+                return Lista[i];
         }
-        return null; 
+        return null;
     }
 
-    public void OpenAccount(Account account)
+    public void DeschidereCont(string titular, TipCont tip, string iban, double suma)
     {
-        Accounts.Add(account);
-        Console.WriteLine($"Cont deschis cu succes pentru {account.AccountHolder}.");
-    }
-
-    public void ShowAccountDetails(string iban)
-    {
-        Account acc = GetAccount(iban);
-        if (acc != null)
+        if (GetAccount(iban) != null)
         {
-            Console.WriteLine(acc.ToString());
+            Console.WriteLine("Contul acesta deja exista!");
         }
         else
         {
-            Console.WriteLine("Contul nu a fost gasit.");
+            Lista.Add(new Cont(titular, tip, iban, suma));
+            Console.WriteLine("Cont deschis cu succes!");
         }
     }
 
-    public void DepositToAccount(string iban, decimal amount)
+    public void GasireCont(string iban)
     {
-        Account acc = GetAccount(iban);
-        if (acc != null)
-        {
-            acc.Deposit(amount);
-            Console.WriteLine($"S-au depus {amount} in contul {iban}.");
-        }
-    }
-
-    public void WithdrawFromAccount(string iban, decimal amount)
-    {
-        Account acc = GetAccount(iban);
-        if (acc != null)
-        {
-            acc.Withdraw(amount);
-        }
-    }
-
-    public void Transfer(string fromIban, string toIban, decimal amount)
-    {
-        Account fromAcc = GetAccount(fromIban);
-        Account toAcc = GetAccount(toIban);
-
-        if (fromAcc != null && toAcc != null)
-        {
-            if (fromAcc.Amount >= amount)
-            {
-                fromAcc.Withdraw(amount);
-                toAcc.Deposit(amount);
-                Console.WriteLine($"Transfer reusit: {amount} de la {fromIban} la {toIban}.");
-            }
-            else
-            {
-                Console.WriteLine("Fonduri insuficiente pentru transfer.");
-            }
-        }
+        Cont? cont = GetAccount(iban);
+        if (cont == null)
+            Console.WriteLine($"Contul cu iban-ul {iban} nu exista!");
         else
-        {
-            Console.WriteLine("Unul sau ambele conturi nu au fost gasite.");
-        }
+            Console.WriteLine(cont);
+    }
+
+    public void DepunereCont(string iban, double suma)
+    {
+        Cont? cont = GetAccount(iban);
+        if (cont == null)
+            Console.WriteLine($"Contul cu iban-ul {iban} nu exista!");
+        else
+            cont.Depunere(suma);
+    }
+
+    public void RetragereCont(string iban, double suma)
+    {
+        Cont? cont = GetAccount(iban);
+        if (cont == null)
+            Console.WriteLine($"Contul cu iban-ul {iban} nu exista!");
+        else
+            cont.Retragere(suma);
+    }
+
+    public void Transfer(string iban1, string iban2, double suma)
+    {
+        Cont? c1 = GetAccount(iban1);
+        Cont? c2 = GetAccount(iban2);
+
+        if (c1 == null)
+            Console.WriteLine($"Contul cu iban-ul {iban1} nu exista!");
+        else if (c2 == null)
+            Console.WriteLine($"Contul cu iban-ul {iban2} nu exista!");
+        else if (c1.Retragere(suma))
+            c2.Depunere(suma);
     }
 }
 
@@ -140,24 +140,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Bank myBank = new Bank("Banca Centrala", "BNCARO");
+        Banca banca = new Banca("Banca Transilvania", "BTRLRO22");
 
-        Account cont1 = new Account("Ion Popescu", AccountType.Person, "RO111", 1000);
-        Account cont2 = new Account("Firma IT SRL", AccountType.Company, "RO222", 5000);
+        banca.DeschidereCont("Ion Popescu", TipCont.Persoana, "RO01BTRL0001", 1000);
+        banca.DeschidereCont("SC Soft SRL", TipCont.Companie, "RO02BTRL0002", 5000);
 
-        myBank.OpenAccount(cont1);
-        myBank.OpenAccount(cont2);
-
-        Console.WriteLine("\n--- Detalii Initiale ---");
-        myBank.ShowAccountDetails("RO111");
-        myBank.ShowAccountDetails("RO222");
-
-        Console.WriteLine("\n--- Operatiuni ---");
-        myBank.DepositToAccount("RO111", 500); 
-        myBank.Transfer("RO222", "RO111", 1000); 
-
-        Console.WriteLine("\n--- Detalii Finale ---");
-        myBank.ShowAccountDetails("RO111");
-        myBank.ShowAccountDetails("RO222");
+        banca.GasireCont("RO01BTRL0001");
+        banca.DepunereCont("RO01BTRL0001", 250);
+        banca.RetragereCont("RO02BTRL0002", 10000);   // esueaza
+        banca.Transfer("RO02BTRL0002", "RO01BTRL0001", 1500);
+        banca.GasireCont("RO99XXXX9999");             // nu exista
     }
 }

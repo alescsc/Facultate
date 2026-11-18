@@ -1,0 +1,26 @@
+.data 
+    A db 12
+    B db 18
+    CMMDC db ?
+    CMMMC dw ? 
+
+.code 
+    MOV BH, A 
+    MOV BL, B 
+
+while: CMP BH, BL 
+       JE final 
+       JG continue
+       SUB BL, BH
+       JMP while 
+
+continue: SUB BH, BL 
+          JMP while
+
+final: MOV CMMDC, BH 
+
+MOV AL, A 
+MUL B 
+DIV CMMDC 
+MOV CMMMC, AL 
+NOP

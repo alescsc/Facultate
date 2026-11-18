@@ -1,35 +1,38 @@
 using System;
+using System.Runtime.InteropServices;
 
-class Program2 
+public class Program
 {
-    static void Main() 
+    public static void Main(string []args)
     {
-        Console.Write("a = ");
-        double a = Convert.ToDouble(Console.ReadLine());
-        
-        Console.Write("b = ");
-        double b = Convert.ToDouble(Console.ReadLine());
-        
-        Console.Write("c = ");
-        double c = Convert.ToDouble(Console.ReadLine());
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
+        double c = double.Parse(Console.ReadLine());
 
-        double delta = (b * b) - (4 * a * c);
+        if(a == 0)
+        {
+            if(b == 0)
+                Console.WriteLine("Nu exista solutii!");
+            else
+                Console.WriteLine($"x = {-c/b}");
+            return;
+        }
 
-        if (delta > 0) 
+        double delta = b*b - 4*a*c;
+        if(delta < 0)
         {
-            double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
-            double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
-            Console.WriteLine("x1 = " + x1);
-            Console.WriteLine("x2 = " + x2);
-        } 
-        else if (delta == 0) 
+            Console.WriteLine("Nu exista solutii reale!");
+            return;
+        }
+        else if(delta == 0)
         {
-            double x = -b / (2 * a);
-            Console.WriteLine("Avem o singura solutie: x = " + x);
-        } 
-        else 
+            Console.WriteLine($"x1 = x2 = {-b/(2*a)}");
+            return;
+        }
+        else
         {
-            Console.WriteLine("Ecuatia nu are solutii reale.");
+            Console.WriteLine($"x1 = {(-b + Math.Sqrt(delta))/(2*a)}");
+            Console.WriteLine($"x2 = {(-b - Math.Sqrt(delta))/(2*a)}");
         }
     }
 }
